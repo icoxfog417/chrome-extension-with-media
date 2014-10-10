@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- build:css styles/vendor.css -->
+        <!-- bower:css -->
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:css styles/main.css -->
+        <link href="styles/main.css" rel="stylesheet">
+        <!-- endbuild -->
+        <style>
+        .screen{
+            width: 300px;
+            height: 250px;            
+        }
+        </style>
+    </head>
+    <body>
+        <div id="message" class="nortification" ></div>
+        <video class="screen"></video>
+        <input id="capture" type="button" style="width:300px" value="Capture" />
+        <br/>
+        <img class="screen" src="">
+        <canvas style="display:none;"></canvas>
+        
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:js scripts/popup.js -->
+        <script src="scripts/popup.js"></script>
+        <!-- endbuild -->
+    </body>
+</html>

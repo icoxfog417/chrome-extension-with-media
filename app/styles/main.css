@@ -1,0 +1,15 @@
+body {
+    padding: 5px;
+}
+
+.enabled{
+    background-color:cornflowerblue;
+}
+.disabled{
+    background-color:coral;
+}
+.nortification{
+    color:white;
+    padding:10px;
+    border-radius:5px;
+}

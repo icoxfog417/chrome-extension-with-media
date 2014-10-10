@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Sayuri Client",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Sayuri Client",
+    "description": "The description of the application"
+  }
+}
